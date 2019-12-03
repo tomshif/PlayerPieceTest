@@ -14,6 +14,7 @@
 		F482DEEA239690F40063CF84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F482DEE9239690F40063CF84 /* ViewController.swift */; };
 		F482DEEC239690F60063CF84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F482DEEB239690F60063CF84 /* Assets.xcassets */; };
 		F482DEEF239690F60063CF84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F482DEED239690F60063CF84 /* Main.storyboard */; };
+		F482DEF8239693490063CF84 /* random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F482DEF7239693490063CF84 /* random.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F482DEEE239690F60063CF84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F482DEF0239690F60063CF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F482DEF1239690F60063CF84 /* PlayerPieceTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlayerPieceTest.entitlements; sourceTree = "<group>"; };
+		F482DEF7239693490063CF84 /* random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = random.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				F482DEE1239690F40063CF84 /* AppDelegate.swift */,
 				F482DEE3239690F40063CF84 /* GameScene.sks */,
 				F482DEE5239690F40063CF84 /* Actions.sks */,
+				F482DEF7239693490063CF84 /* random.swift */,
 				F482DEE7239690F40063CF84 /* GameScene.swift */,
 				F482DEE9239690F40063CF84 /* ViewController.swift */,
 				F482DEEB239690F60063CF84 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F482DEF8239693490063CF84 /* random.swift in Sources */,
 				F482DEEA239690F40063CF84 /* ViewController.swift in Sources */,
 				F482DEE8239690F40063CF84 /* GameScene.swift in Sources */,
 				F482DEE2239690F40063CF84 /* AppDelegate.swift in Sources */,
